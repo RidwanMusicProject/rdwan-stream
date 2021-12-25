@@ -13,7 +13,7 @@ async def join(client, message):
     try:
         link = await client.export_chat_invite_link(chat_id)
     except BaseException:
-        await message.reply("**Error:**\nTambahkan saya sebagai admin grup Anda!")
+        await message.reply("**Error:**\nTambahkan saya sebagai admin grup Lu Kontol!")
         return
     try:
         await USER.join_chat(link)
