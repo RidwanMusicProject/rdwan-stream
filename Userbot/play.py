@@ -19,16 +19,16 @@ from Userbot.helpers.queues import QUEUE, add_to_queue, get_queue
 AMBILFOTO = [
     "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
     "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
-    "https://telegra.ph/file/9956c396644dd15db214c.jpg",
-    "https://telegra.ph/file/9956c396644dd15db214c.jpg",
-    "https://telegra.ph/file/9956c396644dd15db214c.jpg",
-    "https://telegra.ph/file/9956c396644dd15db214c.jpg",
-    "https://telegra.ph/file/9956c396644dd15db214c.jpg",
-    "https://telegra.ph/file/9956c396644dd15db214c.jpg",
-    "https://telegra.ph/file/9956c396644dd15db214c.jpg",
-    "https://telegra.ph/file/9956c396644dd15db214c.jpg",
-    "https://telegra.ph/file/9956c396644dd15db214c.jpg",
-    "https://telegra.ph/file/9956c396644dd15db214c.jpg",
+    "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
+    "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
+    "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
+    "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
+    "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
+    "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
+    "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
+    "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
+    "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
+    "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
 ]
 
 IMAGE_THUMBNAIL = random.choice(AMBILFOTO)
