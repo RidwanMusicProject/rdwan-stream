@@ -126,7 +126,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/9956c396644dd15db214c.jpg",
+                    photo="https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
                     caption=f"""
 **✧ sabar bangsat antri ke {pos}
 ✧ Judul: [{songname}]({link})
@@ -147,7 +147,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/9956c396644dd15db214c.jpg",
+                    photo="https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
                     caption=f"""
 **✧ Mulai Memutar Lagu
 ✧ Judul: [{songname}]({link})
@@ -249,7 +249,7 @@ async def videoplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/9956c396644dd15db214c.jpg",
+                    photo="https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
                     caption=f"""
 **✧ Video Di Antrian Ke {pos}
 ✧ Judul: [{songname}]({link})
@@ -274,7 +274,7 @@ async def videoplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/9956c396644dd15db214c.jpg",
+                    photo="https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
                     caption=f"""
 **✧ Mulai Memutar Video
 ✧ Judul: [{songname}]({link})
@@ -382,7 +382,7 @@ async def playfrom(client, m: Message):
                     add_to_queue(chat_id, songname, location, link, "Audio", 0)
                     # await m.reply_to_message.delete()
                     await m.reply_photo(
-                        photo="https://telegra.ph/file/9956c396644dd15db214c.jpg",
+                        photo="https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
                         caption=f"""
 **✧ Mulai Memutar Lagu Dari {chat}
 ✧ Judul: [{songname}]({link})
