@@ -131,6 +131,7 @@ async def play(client, m: Message):
 **✧ sabar bangsat antri ke {pos}
 ✧ Judul: [{songname}]({link})
 ✧ Chat ID: {chat_id}
+✧ CREATOR", url="https://t.me/rdwan_13"),
 ✧ Permintaan: {m.from_user.mention}**
 """,
                 )
@@ -151,6 +152,7 @@ async def play(client, m: Message):
 **✧ Mulai Memutar Lagu
 ✧ Judul: [{songname}]({link})
 ✧ Chat ID: {chat_id}
+✧ CREATOR", url="https://t.me/rdwan_13"),
 ✧ Atas Permintaan: {m.from_user.mention}**
 """,
                 )
@@ -182,6 +184,7 @@ async def play(client, m: Message):
 **✧ Lagu Di Antrian Ke {pos}
 ✧ Judul: [{songname}]({url})
 ✧ Chat ID: {chat_id}
+✧ CREATOR", url="https://t.me/rdwan_13"),
 ✧ Atas Permintaan: {m.from_user.mention}**
 """,
                         )
