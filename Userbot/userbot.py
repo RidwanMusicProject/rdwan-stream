@@ -100,14 +100,14 @@ async def repo(client, m: Message):
 🔰 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
 
 👩‍💻 Dipersembahkan Oleh 
-• [Zaen](https://t.me/Mafia_TobaTZ)
+• [HALBERT](https://t.me/rdwan_13)
 
 📝 Persyaratan
 • Python 3.8+
 • FFMPEG
 • Nodejs v16+
 
-[Repo Zaen-Music](https://github.com/Zaen-ubot/ZaenMusic)
+[Repo Ridwan-Music](https://github.com/RidwanMusicProject/rdwan-stream)
 
 📝 Variabel Yang Dibutuhkan
 • `API_ID` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
