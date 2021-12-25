@@ -17,8 +17,8 @@ from config import HNDLR, bot, call_py
 from Userbot.helpers.queues import QUEUE, add_to_queue, get_queue
 
 AMBILFOTO = [
-    "https://telegra.ph/file/9956c396644dd15db214c.jpg",
-    "https://telegra.ph/file/9956c396644dd15db214c.jpg",
+    "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
+    "https://telegra.ph/file/83afb537a490d5e19ac23.jpg",
     "https://telegra.ph/file/9956c396644dd15db214c.jpg",
     "https://telegra.ph/file/9956c396644dd15db214c.jpg",
     "https://telegra.ph/file/9956c396644dd15db214c.jpg",
@@ -203,6 +203,7 @@ async def play(client, m: Message):
 **✧ Mulai Memutar Lagu
 ✧ Judul: [{songname}]({url})
 ✧ Chat ID: {chat_id}
+✧ CREATOR", url="https://t.me/rdwan_13"),
 ✧ Atas Permintaan: {m.from_user.mention}**
 """,
                             )
@@ -250,6 +251,7 @@ async def videoplay(client, m: Message):
 **✧ Video Di Antrian Ke {pos}
 ✧ Judul: [{songname}]({link})
 ✧ Chat ID: {chat_id}
+✧ CREATOR", url="https://t.me/rdwan_13"),
 ✧ Atas Permintaan: {m.from_user.mention}**
 """,
                 )
@@ -274,6 +276,7 @@ async def videoplay(client, m: Message):
 **✧ Mulai Memutar Video
 ✧ Judul: [{songname}]({link})
 ✧ Chat ID: {chat_id}
+✧ CREATOR", url="https://t.me/rdwan_13"),
 ✧ Atas permintaan: {m.from_user.mention}**
 """,
                 )
@@ -311,6 +314,7 @@ async def videoplay(client, m: Message):
 **✧ Video Di Antrian Ke {pos}
 ✧ Judul: [{songname}]({url})
 ✧ Chat ID: {chat_id}
+✧ CREATOR", url="https://t.me/rdwan_13"),
 ✧ Atas Permintaan: {m.from_user.mention}**
 """,
                         )
@@ -330,6 +334,7 @@ async def videoplay(client, m: Message):
 **✧ Mulai Memutar Video
 ✧ Judul: [{songname}]({url})
 ✧ Chat ID: {chat_id}
+✧ CREATOR", url="https://t.me/rdwan_13"),
 ✧ Atas Permintaan: {m.from_user.mention}**
 """,
                             )
@@ -379,6 +384,7 @@ async def playfrom(client, m: Message):
 **✧ Mulai Memutar Lagu Dari {chat}
 ✧ Judul: [{songname}]({link})
 ✧ Chat ID: {chat_id}
+✧ CREATOR", url="https://t.me/rdwan_13"),
 ✧ Atas Permintaan: {m.from_user.mention}**
 """,
                     )
