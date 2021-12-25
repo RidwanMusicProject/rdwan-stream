@@ -1,5 +1,5 @@
 {
-    "name": " Zaen Music And Video Player",
+    "name": " Ridwan Music And Video Player",
     "description": "UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.",
     "logo": "https://telegra.ph/file/4219866eba63bcac65527.jpg",
     "keywords": [
@@ -7,7 +7,7 @@
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/Zaen-ubot/ZaenMusic",
+    "repository": "https://github.com/RidwanMusicProject/rdwnmusicv2",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
