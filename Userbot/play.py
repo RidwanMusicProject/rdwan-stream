@@ -111,7 +111,7 @@ async def play(client, m: Message):
     if replied:
         if replied.audio or replied.voice:
             await m.delete()
-            huehue = await replied.reply("**✧ Memproses Request..**")
+            huehue = await replied.reply("**✧ Memproses Request Kontol..**")
             dl = await replied.download()
             link = replied.link
             if replied.audio:
@@ -128,7 +128,7 @@ async def play(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/9956c396644dd15db214c.jpg",
                     caption=f"""
-**✧ Lagu Di Antrian Ke {pos}
+**✧ sabar bangsat antri ke {pos}
 ✧ Judul: [{songname}]({link})
 ✧ Chat ID: {chat_id}
 ✧ Permintaan: {m.from_user.mention}**
@@ -160,7 +160,7 @@ async def play(client, m: Message):
             await m.reply("Balas ke File Audio atau berikan sesuatu untuk Pencarian")
         else:
             await m.delete()
-            huehue = await m.reply("**✧ Sedang Mencari Lagu... Mohon Bersabar**")
+            huehue = await m.reply("**✧ Sedang Mencari Lagu... Mohon Bersabar Yaa Kontol**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
@@ -218,7 +218,7 @@ async def videoplay(client, m: Message):
     if replied:
         if replied.video or replied.document:
             await m.delete()
-            huehue = await replied.reply("**✧ Memproses Video....**")
+            huehue = await replied.reply("**✧ Sedang Memproses Video ya Anak Laknat....**")
             dl = await replied.download()
             link = replied.link
             if len(m.command) < 2:
@@ -285,7 +285,7 @@ async def videoplay(client, m: Message):
             )
         else:
             await m.delete()
-            huehue = await m.reply("**ðŸ”Ž Pencarian Lagu... Mohon Bersabar**")
+            huehue = await m.reply("**ðŸ”Ž Pencarian Lagu... Mohon Bersabar Ya Anak Laknat**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             Q = 720
